@@ -28,7 +28,7 @@ ol {
   text-decoration: none;
 }
 
-.img {
+img {
   display: block;
   width: 100%;
 }
@@ -112,6 +112,10 @@ body {
   .mobile-button {
     display: none;
   }
+}
+
+.hero .container {
+  padding: 0;
 }
 
 :root {

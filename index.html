@@ -14,19 +14,37 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="navigation container">
-        <a href="#" class="logo-link">
-          <svg class="logo__svg" width="78" height="24">
-            <use href="./images/sprite.svg#icon-RobinW"></use>
-          </svg>
-        </a>
-        <button type="button" class="mobile-button">
-          <svg class="burger" width="24" height="24">
-            <use href="./images/sprite.svg#icon-burger"></use>
-          </svg>
-        </button>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="#" class="logo-link">
+            <svg class="logo__svg" width="78" height="24">
+              <use href="./images/sprite.svg#icon-RobinW"></use>
+            </svg>
+          </a>
+          <button type="button" class="mobile-button">
+            <svg class="burger" width="24" height="24">
+              <use href="./images/sprite.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </nav>
       </div>
-    </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <picture class="main-picture">
+            <source
+              srcset="
+                ./images/hero-bg-mob.jpg    1x,
+                ./images/hero-bg-mob-2x.jpg 2x
+              "
+              media="max-width: 480px"
+            />
+            <img src="./images/hero-bg-mob.jpg" alt="man" />
+          </picture>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
