@@ -42,6 +42,7 @@ img {
 body {
   margin: 0;
   font-family: "sen", Tahoma, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   background-color: var(--main-background-color);
   color: var(--main-text-color);
@@ -114,8 +115,39 @@ body {
   }
 }
 
-.hero .container {
+.section-hero .container {
   padding: 0;
+}
+
+.hero-title {
+  max-width: 320px;
+  margin-left: 20px;
+  margin-top: 48px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.18;
+  color: var(--main-text-color);
+}
+.hero-title .hero-title-end {
+  color: #8491a0;
+}
+
+.hero-text {
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 16px 20px 48px 20px;
+  margin-left: 20px;
+  margin-bottom: 48px;
+  color: var(--main-text-color);
+}
+
+.exp-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #8491a0;
 }
 
 :root {
