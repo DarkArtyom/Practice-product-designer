@@ -1,3 +1,11 @@
+:root {
+  --main-background-color: #000000;
+  --secondary-background-color: #181823;
+  --main-text-color: #ffffff;
+  --lightgrey-text-color: #8491a0;
+  --darkgrey-text-color: #5b6876;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -72,6 +80,11 @@ body {
     padding-left: 72px;
     padding-right: 72px;
   }
+}
+
+.section {
+  padding: 48px 0;
+  margin: 0;
 }
 
 .header {
@@ -150,10 +163,51 @@ body {
   color: #8491a0;
 }
 
-:root {
-  --main-background-color: #000000;
-  --secondary-background-color: #181823;
-  --main-text-color: #ffffff;
-  --lightgrey-text-color: #8491a0;
-  --darkgrey-text-color: #5b6876;
+.exp-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.18;
+  margin-bottom: 40px;
+  color: var(--main-text-color);
+}
+
+.exp-number {
+  font-weight: 400;
+  font-size: 117px;
+  line-height: 0.8;
+  padding: 30px 0;
+  color: var(--lightgrey-text-color);
+}
+
+.exp-designer-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  color: var(--main-text-color);
+}
+.exp-designer-text .exp-google {
+  color: #3cc74e;
+}
+
+.exp-designer-text > .exp-facebook {
+  color: #609bff;
+}
+
+.exp-designer-text > .exp-drible {
+  color: #e95d90;
+}
+
+.exp-discribe-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--lightgrey-text-color);
+}
+
+.exp-item {
+  margin-bottom: 40px;
+}
+.exp-item:last-child {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
