@@ -210,4 +210,20 @@ body {
 }
 .exp-item:last-child {
   margin-bottom: 0;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: var(--main-text-color);
+}
+
+.subscribe-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+  color: var(--lightgrey-text-color);
 }/*# sourceMappingURL=main.css.map */
