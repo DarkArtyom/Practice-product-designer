@@ -260,6 +260,7 @@ body {
   line-height: 1.5;
   padding-left: 10px;
   margin-top: 8px;
+  border: none;
   color: var(--main-text-color);
   background-color: var(--secondary-background-color);
   resize: none;
