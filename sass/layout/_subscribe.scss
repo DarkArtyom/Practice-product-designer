@@ -51,6 +51,11 @@
   background: #5221e6;
   border: none;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    background: var(--hover-link-color);
+    transition: 300ms;
+  }
 }
 
 .custom-checkbox {

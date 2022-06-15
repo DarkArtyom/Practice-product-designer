@@ -16,10 +16,11 @@
 }
 
 .logo__svg {
-  fill: #ffffff;
+  fill: var(--main-text-color);
   &:hover,
   :focus {
-    fill: #3cc74e;
+    fill: var(--hover-link-color);
+    transition: 300ms ease;
   }
 }
 
@@ -27,7 +28,8 @@
   fill: #c4c4c4;
   &:hover,
   :focus {
-    fill: #3cc74e;
+    fill: var(--hover-link-color);
+    transition: 300ms ease;
   }
 }
 
