@@ -385,7 +385,8 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-.container .logo-link {
+.footer-logo-link {
+  display: block;
   padding: 0;
   margin-bottom: 32px;
 }
