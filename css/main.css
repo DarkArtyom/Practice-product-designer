@@ -385,9 +385,18 @@ body {
   background-color: var(--secondary-background-color);
 }
 
+.container .logo-link {
+  padding: 0;
+  margin-bottom: 32px;
+}
+
 .soc-list {
   display: flex;
   align-items: center;
+  margin-bottom: 48px;
+}
+.soc-list .soc-list__item:not(:last-child) {
+  margin-right: 16px;
 }
 
 .soc-link {
@@ -417,4 +426,29 @@ body {
 .soc-icon-linked:hover, .soc-icon-linked:focus {
   fill: var(--hover-link-color);
   transition: 300ms ease;
+}
+
+.footer-nav-list {
+  margin-bottom: 50px;
+}
+
+.footer-nav__item:not(last-child) {
+  margin-bottom: 15px;
+}
+
+.footer-nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.footer-nav-link:hover, .footer-nav-link:focus {
+  color: var(--hover-link-color);
+  transition: 300ms ease;
+}
+
+.rights {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */

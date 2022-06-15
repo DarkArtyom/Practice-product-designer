@@ -2,9 +2,18 @@
   background-color: var(--secondary-background-color);
 }
 
+.container .logo-link {
+  padding: 0;
+  margin-bottom: 32px;
+}
+
 .soc-list {
   display: flex;
   align-items: center;
+  margin-bottom: 48px;
+  .soc-list__item:not(:last-child) {
+    margin-right: 16px;
+  }
 }
 
 .soc-link {
@@ -37,4 +46,26 @@
     fill: var(--hover-link-color);
     transition: 300ms ease;
   }
+}
+
+.footer-nav-list {
+  margin-bottom: 50px;
+}
+
+.footer-nav__item:not(last-child) {
+  margin-bottom: 15px;
+}
+
+.footer-nav-link {
+  @include font(400, 16px, 1.5);
+  color: var(--main-text-color);
+  &:hover,
+  &:focus {
+    color: var(--hover-link-color);
+    transition: 300ms ease;
+  }
+}
+
+.rights {
+  @include font(400, 16px, 1.5);
 }
