@@ -1,0 +1,11 @@
+.gallery-title {
+  @include font(700, 32px, 1.18);
+  margin-bottom: 25px;
+  color: var(--main-text-color);
+}
+
+.gallery-text {
+  @include font(400, 18px, 1.5);
+  margin-bottom: 40px;
+  color: var(--lightgrey-text-color);
+}
